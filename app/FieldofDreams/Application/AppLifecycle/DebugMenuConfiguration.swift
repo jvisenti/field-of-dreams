@@ -16,7 +16,7 @@ class DebugMenuConfiguration: AppLifecycle {
     }
 
     func onDidLaunch(application: UIApplication, launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
-        DefaultBehaviors(behaviors: [DebugMenuBehavior()]).inject()
+//        DefaultBehaviors(behaviors: [DebugMenuBehavior()]).inject()
     }
 
 }
@@ -69,7 +69,7 @@ class DebugMenu {
     }
 }
 
-public class DebugMenuBehavior: ViewControllerLifecycleBehavior {
+public class DebugMenuBehavior {
 
     public init() {}
     public func afterAppearing(_ viewController: UIViewController, animated: Bool) {

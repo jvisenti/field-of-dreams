@@ -24,6 +24,6 @@ struct AnalyticsConfiguration: AppLifecycle, PageNameConfiguration {
     }
 
     func onDidLaunch(application: UIApplication, launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
-        DefaultBehaviors(behaviors: [GoogleTrackPageViewBehavior()]).inject()
+//        DefaultBehaviors(behaviors: [GoogleTrackPageViewBehavior()]).inject()
     }
 }

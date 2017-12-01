@@ -13,7 +13,8 @@ target 'FieldofDreams' do
 
   pod 'BonMot'
   pod 'Anchorage'
-  pod 'Swiftilities'
+  pod 'Swiftilities/CoreDataStack'
+  pod 'Swiftilities/Logging'
 
   pod 'GoogleAnalytics',   '~>3.0'
 

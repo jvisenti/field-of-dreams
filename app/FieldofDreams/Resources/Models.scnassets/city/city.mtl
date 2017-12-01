@@ -1,0 +1,689 @@
+newmtl _OBJ_CityBlock02:Material__1204
+illum 4
+Kd 0.48 0.52 0.55
+Ka 0.48 0.52 0.55
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 100.00
+newmtl _OBJ_CityBlock02:cAluminium
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-aluminium.jpg
+map_Ka tb-aluminium.jpg
+Ni 1.50
+Ks 0.19 0.19 0.19
+Ns 10.00
+newmtl _OBJ_CityBlock02:cBlueMetal
+illum 4
+Kd 0.15 0.18 0.40
+Ka 0.15 0.18 0.40
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.28 0.28 0.28
+Ns 15.00
+newmtl _OBJ_CityBlock02:cBrick02
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cbrick02.jpg
+map_Ka cbrick02.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cBrick04
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cBrick03.jpg
+map_Ka cBrick03.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cBusbillboard
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-busstop-bilboard.jpg
+map_Ka tb-busstop-bilboard.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cCallboxtext
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-callboxtext.jpg
+map_Ka tb-callboxtext.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cCallboxtextb
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-callboxsign.jpg
+map_Ka tb-callboxsign.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc01
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cconc01.jpg
+map_Ka cconc01.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc01b
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc01b.jpg
+map_Ka cConc01b.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc02
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cconc02.jpg
+map_Ka cconc02.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc03
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cconc03.jpg
+map_Ka cconc03.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc04
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cconc04.jpg
+map_Ka cconc04.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc04b
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc04b.jpg
+map_Ka cConc04b.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc07
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc07.jpg
+map_Ka cConc07.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc010
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc06.jpg
+map_Ka cConc06.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc012
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc09.jpg
+map_Ka cConc09.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc015
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc08.jpg
+map_Ka cConc08.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc017
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cconc05.jpg
+map_Ka cconc05.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc10
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc10.jpg
+map_Ka cConc10.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cConc12
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc12.jpg
+map_Ka cConc12.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cDirt
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cdirt.jpg
+map_Ka cdirt.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cDoorB
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cdoorb.jpg
+map_Ka cdoorb.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cFence1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cConc06.jpg
+map_Ka cConc06.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cGate
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cgate.jpg
+map_Ka cgate.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cGateB
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cgateb.jpg
+map_Ka cgateb.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cGlassA
+illum 4
+Kd 0.31 0.70 1.00
+Ka 0.31 0.70 1.00
+Tf 0.50 0.50 0.50
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cGlassB
+illum 4
+Kd 0.11 0.33 0.59
+Ka 0.11 0.33 0.59
+Tf 0.50 0.50 0.50
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cGrass
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-grass.jpg
+map_Ka tb-grass.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cGrassBig
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cGrassBig.jpg
+map_Ka cGrassBig.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cGravel
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cgravel.jpg
+map_Ka cgravel.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cGreenlight
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-trlight-green.jpg
+map_Ka tb-trlight-green.jpg
+Ni 1.50
+Ks 0.97 0.97 0.97
+Ns 72.00
+newmtl _OBJ_CityBlock02:cGreenplastic
+illum 4
+Kd 0.15 0.55 0.17
+Ka 0.15 0.55 0.17
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.13 0.13 0.13
+Ns 0.00
+newmtl _OBJ_CityBlock02:cHotel
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cHotel.jpg
+map_Ka cHotel.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cInt
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cint.jpg
+map_Ka cint.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cMetalA
+illum 4
+Kd 0.40 0.38 0.38
+Ka 0.40 0.38 0.38
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.43 0.43 0.43
+Ns 10.00
+newmtl _OBJ_CityBlock02:cMetalB
+illum 4
+Kd 0.23 0.22 0.21
+Ka 0.23 0.22 0.21
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.43 0.43 0.43
+Ns 10.00
+newmtl _OBJ_CityBlock02:cMetalC
+illum 4
+Kd 0.64 0.65 0.67
+Ka 0.64 0.65 0.67
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.14 0.14 0.14
+Ns 10.00
+newmtl _OBJ_CityBlock02:cMetalD
+illum 4
+Kd 0.48 0.52 0.55
+Ka 0.48 0.52 0.55
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.14 0.14 0.14
+Ns 10.00
+newmtl _OBJ_CityBlock02:cPlexiglass
+illum 4
+Kd 0.51 0.74 0.44
+Ka 0.51 0.74 0.44
+Tf 0.70 0.70 0.70
+Ni 1.50
+Ks 0.23 0.23 0.23
+Ns 10.00
+newmtl _OBJ_CityBlock02:cRedlight
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-trlight-red.jpg
+map_Ka tb-trlight-red.jpg
+Ni 1.50
+Ks 0.97 0.97 0.97
+Ns 72.00
+newmtl _OBJ_CityBlock02:cRoof
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd croof.jpg
+map_Ka croof.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cRsign
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road-sign2.jpg
+map_Ka tb-road-sign2.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cRsignB
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road-sign3.jpg
+map_Ka tb-road-sign3.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cRsignC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tex_sign_back.jpg
+map_Ka tex_sign_back.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cSid01
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd csid01.jpg
+map_Ka csid01.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cSign01
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-sign01.jpg
+map_Ka tb-sign01.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cSign04
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-sign04.jpg
+map_Ka tb-sign04.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cSign05
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-sign05.jpg
+map_Ka tb-sign05.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cSign07
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-sign07.jpg
+map_Ka tb-sign07.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cStripes
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-stripes.jpg
+map_Ka tb-stripes.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:cWindshutter
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cWindshutter.jpg
+map_Ka cWindshutter.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tair
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tair.jpg
+map_Ka tair.jpg
+bump tair.jpg -bm 0
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_brick
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-rbrick.jpg
+map_Ka tb-rbrick.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_brick2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-rbrick2.jpg
+map_Ka tb-rbrick2.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_dumpster
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-dumpster.jpg
+map_Ka tb-dumpster.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_road
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road.jpg
+map_Ka tb-road.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_road2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road2.jpg
+map_Ka tb-road2.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_road_b
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road-b.jpg
+map_Ka tb-road-b.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_road_c
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road-c.jpg
+map_Ka tb-road-c.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_road_center
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road-center.jpg
+map_Ka tb-road-center.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_road_cross
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road-cross.jpg
+map_Ka tb-road-cross.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tb_road_turn
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tb-road-turn.jpg
+map_Ka tb-road-turn.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tex_concrete_b_highw
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tex_concrete_b.jpg
+map_Ka tex_concrete_b.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tr_leaf
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tr-leaf.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:trark_a
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd trbark-a.jpg
+map_Ka trbark-a.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:ttreeGleafs
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ttreegleafs.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tw_floor
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tw_floor.jpg
+map_Ka tw_floor.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tw_roof03
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tw_roof03.jpg
+map_Ka tw_roof03.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tw_wall04
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tw_wall04.jpg
+map_Ka tw_wall04.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl _OBJ_CityBlock02:tw_wallblue
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tw_wallblue.jpg
+map_Ka tw_wallblue.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00

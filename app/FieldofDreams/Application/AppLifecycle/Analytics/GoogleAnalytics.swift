@@ -58,7 +58,7 @@ extension GoogleAnalytics: AnalyticsService {
 
 }
 
-public class GoogleTrackPageViewBehavior: ViewControllerLifecycleBehavior {
+public class GoogleTrackPageViewBehavior {
 
     public init() {}
     public func afterAppearing(_ viewController: UIViewController, animated: Bool) {
