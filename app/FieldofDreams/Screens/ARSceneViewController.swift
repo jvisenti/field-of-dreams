@@ -13,7 +13,7 @@ class ARSceneViewController: UIViewController {
 
     let sceneView = ARSCNView()
     var focusSquare = FocusSquare()
-    fileprivate var childNode: SCNNode?
+    var childNode: SCNNode?
 
     override func viewDidLoad() {
         super.viewDidLoad()

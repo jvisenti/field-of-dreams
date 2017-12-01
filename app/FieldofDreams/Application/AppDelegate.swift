@@ -40,6 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let window = UIWindow(frame: UIScreen.main.bounds)
         let vc = FieldPlacementViewController()
+        vc.childNode = City()
         window.rootViewController = vc
         window.makeKeyAndVisible()
         self.window = window
