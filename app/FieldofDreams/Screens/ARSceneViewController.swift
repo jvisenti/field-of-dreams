@@ -15,6 +15,10 @@ class ARSceneViewController: UIViewController {
     var focusSquare = FocusSquare()
     var childNode: SCNNode?
 
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         sceneView.delegate = self
