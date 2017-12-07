@@ -15,7 +15,7 @@ class FieldPlacementViewController: ARSceneViewController {
     var initialScale: SCNVector3?
 
     let field: SCNNode = {
-        let field = CityField()
+        let field = WheelField()
         return field.node
     }()
 

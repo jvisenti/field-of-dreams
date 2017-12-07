@@ -36,7 +36,7 @@ extension Field {
 fileprivate extension Field {
 
     func ConeNode() -> SCNNode {
-        return City()
+        return Wheel()
     }
 
     func PillarNode() -> SCNNode {

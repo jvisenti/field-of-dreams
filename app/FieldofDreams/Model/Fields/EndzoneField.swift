@@ -35,7 +35,12 @@ protocol EndzoneField: Field {
 extension EndzoneField {
 
     var verticies: [Point] {
-        return [p0, p1, p2, p3, p4, p5, p6, p7]
+        if endzoneDepth > 0 {
+            return [p0, p1, p2, p3, p4, p5, p6, p7]
+        }
+        else {
+            return [p1, p2, p5, p6]
+        }
     }
 
     var lines: [Line] {

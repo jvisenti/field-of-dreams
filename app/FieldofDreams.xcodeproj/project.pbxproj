@@ -68,6 +68,8 @@
 		BE28092C1E802893006E50D5 /* GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2809291E802893006E50D5 /* GoogleAnalytics.swift */; };
 		BE28092E1E8029D8006E50D5 /* AnalyticsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28092D1E8029D8006E50D5 /* AnalyticsConfiguration.swift */; };
 		BE4C21EB1E81970A00645143 /* DebugMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C21EA1E81970A00645143 /* DebugMenuConfiguration.swift */; };
+		D42360911FD9B7DE00834850 /* WheelField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42360901FD9B7DE00834850 /* WheelField.swift */; };
+		D42360941FD9BC7F00834850 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42360931FD9BC7F00834850 /* Wheel.swift */; };
 		D451FFDD1FD1B0E6002C2170 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451FFDC1FD1B0E6002C2170 /* City.swift */; };
 		D451FFDF1FD1B13E002C2170 /* CityField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451FFDE1FD1B13E002C2170 /* CityField.swift */; };
 /* End PBXBuildFile section */
@@ -181,6 +183,8 @@
 		BE4C21EA1E81970A00645143 /* DebugMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMenuConfiguration.swift; sourceTree = "<group>"; };
 		C3A4171B7E64E228CC7A0DF7 /* Pods-FieldofDreams-FieldofDreamsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldofDreams-FieldofDreamsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FieldofDreams-FieldofDreamsTests/Pods-FieldofDreams-FieldofDreamsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7DBD1236E57FBDDF10B2FB0 /* Pods-FieldofDreams.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldofDreams.develop.xcconfig"; path = "Pods/Target Support Files/Pods-FieldofDreams/Pods-FieldofDreams.develop.xcconfig"; sourceTree = "<group>"; };
+		D42360901FD9B7DE00834850 /* WheelField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelField.swift; sourceTree = "<group>"; };
+		D42360931FD9BC7F00834850 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
 		D451FFDC1FD1B0E6002C2170 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		D451FFDE1FD1B13E002C2170 /* CityField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityField.swift; sourceTree = "<group>"; };
 		DCD1E696B5452D855D78934E /* Pods-FieldofDreams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldofDreams.release.xcconfig"; path = "Pods/Target Support Files/Pods-FieldofDreams/Pods-FieldofDreams.release.xcconfig"; sourceTree = "<group>"; };
@@ -214,6 +218,7 @@
 				003D4F7B1F32436C0037CB87 /* BeachUltimateFrisbee.swift */,
 				003D4F7D1F3243F20037CB87 /* FootballField.swift */,
 				D451FFDE1FD1B13E002C2170 /* CityField.swift */,
+				D42360901FD9B7DE00834850 /* WheelField.swift */,
 			);
 			path = Fields;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 				00460D531F2C30860011E80B /* FocusSquare.swift */,
 				00FB93A01F32147D008801CD /* Cone.swift */,
 				D451FFDC1FD1B0E6002C2170 /* City.swift */,
+				D42360931FD9BC7F00834850 /* Wheel.swift */,
 			);
 			path = ARHelpers;
 			sourceTree = "<group>";
@@ -803,6 +809,7 @@
 				2DAB59F61E9531F700310ABF /* Closures.swift in Sources */,
 				ABF84F8D1DC99CFD002DB24D /* TextStyle.swift in Sources */,
 				003D4F7E1F3243F20037CB87 /* FootballField.swift in Sources */,
+				D42360941FD9BC7F00834850 /* Wheel.swift in Sources */,
 				003D4F7C1F32436C0037CB87 /* BeachUltimateFrisbee.swift in Sources */,
 				ABF84FA21DCBCB87002DB24D /* Marshal+Utility.swift in Sources */,
 				ABC778EA1DC951B900815FB9 /* LoggingConfiguration.swift in Sources */,
@@ -813,6 +820,7 @@
 				D451FFDF1FD1B13E002C2170 /* CityField.swift in Sources */,
 				006EFEF21F2641C9004A95DE /* APIClient+FieldofDreams.swift in Sources */,
 				D451FFDD1FD1B0E6002C2170 /* City.swift in Sources */,
+				D42360911FD9B7DE00834850 /* WheelField.swift in Sources */,
 				006EFEF41F2641D5004A95DE /* APIEnvironment.swift in Sources */,
 				ABC778DA1DC93E9C00815FB9 /* APIEndpoint.swift in Sources */,
 				ABC778C91DC927C900815FB9 /* Formatters.swift in Sources */,
