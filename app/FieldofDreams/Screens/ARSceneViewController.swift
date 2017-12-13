@@ -73,6 +73,8 @@ extension ARSceneViewController {
         let cameraToPosition = pos - cameraWorldPos
         let origin = cameraWorldPos + cameraToPosition
         child.position = origin
+        child.eulerAngles = SCNVector3(x: 0, y: sceneView.session.currentFrame!.camera.eulerAngles.y, z: 0)
+        child.scale = SCNVector3(x: 1, y: 1, z: 1)
         sceneView.scene.rootNode.addChildNode(child)
         self.childNode = child
     }

@@ -11,6 +11,6 @@ import ARKit
 struct WheelField: EndzoneField {
     var unit: UnitLength = .inches
     var endzoneDepth: Double = 0
-    var playingFieldProper: Double = 106
-    var width: Double = 60
+    var playingFieldProper: Double = 100
+    var width: Double = 50
 }

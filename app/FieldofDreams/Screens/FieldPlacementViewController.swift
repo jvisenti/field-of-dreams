@@ -11,6 +11,7 @@ import SceneKit
 
 class FieldPlacementViewController: ARSceneViewController {
 
+    var initialPosition: SCNVector3?
     var initialRotation: Float?
     var initialScale: SCNVector3?
 
@@ -28,10 +29,14 @@ class FieldPlacementViewController: ARSceneViewController {
         let rotation = UIRotationGestureRecognizer(target: self, action: #selector(handle(rotation:)))
         rotation.delegate = self
         view.addGestureRecognizer(rotation)
-    }
 
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        addChildNodeAtFocus(field)
+        let pan = UIPanGestureRecognizer(target: self, action: #selector(handle(pan:)))
+        pan.delegate = self
+        view.addGestureRecognizer(pan)
+
+        let tap = UITapGestureRecognizer(target: self, action: #selector(handle(tap:)))
+        tap.delegate = self
+        view.addGestureRecognizer(tap)
     }
 
     @objc func handle(pinch: UIPinchGestureRecognizer) {
@@ -62,6 +67,28 @@ class FieldPlacementViewController: ARSceneViewController {
         default:
             break
         }
+    }
+
+    @objc func handle(pan: UIPanGestureRecognizer) {
+        switch pan.state {
+        case .began:
+            initialPosition = childNode?.position
+        case .changed:
+            let trans = pan.translation(in: view)
+            childNode?.position = SCNVector3(
+                x: (initialPosition?.x ?? 0) + 0.01 * Float(trans.x),
+                y: (initialPosition?.y ?? 0),
+                z: (initialPosition?.z ?? 0) + 0.01 * Float(trans.y)
+            )
+        case .ended, .cancelled, .failed:
+            initialPosition = nil
+        default:
+            break
+        }
+    }
+
+    @objc func handle(tap: UITapGestureRecognizer) {
+        addChildNodeAtFocus(field)
     }
 
 }

@@ -13,7 +13,7 @@ extension Field {
     var node: SCNNode {
         let fieldNode = SCNNode()
 
-        verticies.forEach { vertex in
+        verticies.enumerated().forEach { index, vertex in
             let vertextNode = SCNNode()
             vertextNode.position = SCNVector3(scaled(vertex.x), 0, scaled(-vertex.y))
 
@@ -24,9 +24,9 @@ extension Field {
             fieldNode.addChildNode(vertextNode)
         }
 
-        lines.forEach { line in
-            fieldNode.addChildNode(LineNode(line))
-        }
+//        lines.forEach { line in
+//            fieldNode.addChildNode(LineNode(line))
+//        }
 
         return fieldNode
     }
