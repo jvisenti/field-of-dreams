@@ -9,8 +9,8 @@
 #include "FieldofDreams/Resources/xcconfig/Raizlabs-Account.xcconfig"
 #include "FieldofDreams/Resources/xcconfig/Global.xcconfig"
 
-PRODUCT_BUNDLE_IDENTIFIER = com.raizlabs.FieldofDreams.develop
-PRODUCT_NAME = develop-$(TARGET_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = com.raizlabs.WheelsOfDreams.develop
+PRODUCT_NAME = Wheels
 DEVELOPMENT_TEAM = XRTVVR644Y // Insert develop TEAM ID here
 
 CODE_SIGN_IDENTITY_FieldofDreams = iPhone Distribution

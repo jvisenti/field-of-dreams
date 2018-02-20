@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABC778741DC90B7A00815FB9"
-               BuildableName = "develop-FieldofDreams.app"
+               BuildableName = "Wheels.app"
                BlueprintName = "FieldofDreams"
                ReferencedContainer = "container:FieldofDreams.xcodeproj">
             </BuildableReference>
@@ -34,7 +34,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABC778741DC90B7A00815FB9"
-            BuildableName = "develop-FieldofDreams.app"
+            BuildableName = "Wheels.app"
             BlueprintName = "FieldofDreams"
             ReferencedContainer = "container:FieldofDreams.xcodeproj">
          </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABC778741DC90B7A00815FB9"
-            BuildableName = "develop-FieldofDreams.app"
+            BuildableName = "Wheels.app"
             BlueprintName = "FieldofDreams"
             ReferencedContainer = "container:FieldofDreams.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABC778741DC90B7A00815FB9"
-            BuildableName = "develop-FieldofDreams.app"
+            BuildableName = "Wheels.app"
             BlueprintName = "FieldofDreams"
             ReferencedContainer = "container:FieldofDreams.xcodeproj">
          </BuildableReference>

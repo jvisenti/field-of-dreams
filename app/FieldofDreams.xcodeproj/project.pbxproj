@@ -70,8 +70,6 @@
 		BE4C21EB1E81970A00645143 /* DebugMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C21EA1E81970A00645143 /* DebugMenuConfiguration.swift */; };
 		D42360911FD9B7DE00834850 /* WheelField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42360901FD9B7DE00834850 /* WheelField.swift */; };
 		D42360941FD9BC7F00834850 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42360931FD9BC7F00834850 /* Wheel.swift */; };
-		D451FFDD1FD1B0E6002C2170 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451FFDC1FD1B0E6002C2170 /* City.swift */; };
-		D451FFDF1FD1B13E002C2170 /* CityField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451FFDE1FD1B13E002C2170 /* CityField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,8 +183,6 @@
 		C7DBD1236E57FBDDF10B2FB0 /* Pods-FieldofDreams.develop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldofDreams.develop.xcconfig"; path = "Pods/Target Support Files/Pods-FieldofDreams/Pods-FieldofDreams.develop.xcconfig"; sourceTree = "<group>"; };
 		D42360901FD9B7DE00834850 /* WheelField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelField.swift; sourceTree = "<group>"; };
 		D42360931FD9BC7F00834850 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
-		D451FFDC1FD1B0E6002C2170 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
-		D451FFDE1FD1B13E002C2170 /* CityField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityField.swift; sourceTree = "<group>"; };
 		DCD1E696B5452D855D78934E /* Pods-FieldofDreams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FieldofDreams.release.xcconfig"; path = "Pods/Target Support Files/Pods-FieldofDreams/Pods-FieldofDreams.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,7 +213,6 @@
 				00E243C41F2BD2320040FCAC /* UltimateFrisbeeField.swift */,
 				003D4F7B1F32436C0037CB87 /* BeachUltimateFrisbee.swift */,
 				003D4F7D1F3243F20037CB87 /* FootballField.swift */,
-				D451FFDE1FD1B13E002C2170 /* CityField.swift */,
 				D42360901FD9B7DE00834850 /* WheelField.swift */,
 			);
 			path = Fields;
@@ -238,7 +233,6 @@
 				00460D5B1F2C36EC0011E80B /* VirtualObject.swift */,
 				00460D531F2C30860011E80B /* FocusSquare.swift */,
 				00FB93A01F32147D008801CD /* Cone.swift */,
-				D451FFDC1FD1B0E6002C2170 /* City.swift */,
 				D42360931FD9BC7F00834850 /* Wheel.swift */,
 			);
 			path = ARHelpers;
@@ -507,7 +501,6 @@
 				ABC778BD1DC924EF00815FB9 /* Embed Frameworks */,
 				4B79AD4EE86D9527DA2201EB /* [CP] Embed Pods Frameworks */,
 				BD1BB42B08010165A4053F5F /* [CP] Copy Pods Resources */,
-				006EFEFF1F27B3C0004A95DE /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -606,20 +599,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		006EFEFF1F27B3C0004A95DE /* Crashlytics */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Crashlytics;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" != \"Debug\" ]; then\n\"${PODS_ROOT}/Fabric/run\" ${FABRIC_API_KEY} ${FABRIC_BUILD_SECRET}\nfi";
-		};
 		2DFF1D1E1E8C563200B1AD70 /* SwiftGen strings */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -817,9 +796,7 @@
 				00EE62C81F2F96880038BE8A /* ARSceneViewController.swift in Sources */,
 				BE4C21EB1E81970A00645143 /* DebugMenuConfiguration.swift in Sources */,
 				ABF84F9A1DCB70BB002DB24D /* Alamofire+FieldofDreams.swift in Sources */,
-				D451FFDF1FD1B13E002C2170 /* CityField.swift in Sources */,
 				006EFEF21F2641C9004A95DE /* APIClient+FieldofDreams.swift in Sources */,
-				D451FFDD1FD1B0E6002C2170 /* City.swift in Sources */,
 				D42360911FD9B7DE00834850 /* WheelField.swift in Sources */,
 				006EFEF41F2641D5004A95DE /* APIEnvironment.swift in Sources */,
 				ABC778DA1DC93E9C00815FB9 /* APIEndpoint.swift in Sources */,
@@ -1217,8 +1194,8 @@
 				INFOPLIST_FILE = FieldofDreams/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PROVISIONING_PROFILE = "9ad42e63-bab9-47d9-ac7c-43d47083277c";
-				PROVISIONING_PROFILE_SPECIFIER = "Raizlabs Generic Enterprise Distribution Profile";
+				PROVISIONING_PROFILE = "8306df8a-75ef-4479-b0df-a8b619573e09";
+				PROVISIONING_PROFILE_SPECIFIER = "Raizlabs Generic Enterprise Profile";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
