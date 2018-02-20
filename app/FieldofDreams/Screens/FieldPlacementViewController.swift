@@ -11,7 +11,7 @@ import SceneKit
 
 class FieldPlacementViewController: ARSceneViewController {
 
-    var initialPosition: SCNVector3?
+    var lastPosition: CGPoint?
     var initialRotation: Float?
     var initialScale: SCNVector3?
 
@@ -33,10 +33,25 @@ class FieldPlacementViewController: ARSceneViewController {
         let pan = UIPanGestureRecognizer(target: self, action: #selector(handle(pan:)))
         pan.delegate = self
         view.addGestureRecognizer(pan)
+        pan.maximumNumberOfTouches = 1
 
         let tap = UITapGestureRecognizer(target: self, action: #selector(handle(tap:)))
         tap.delegate = self
         view.addGestureRecognizer(tap)
+        tap.require(toFail: pan)
+        tap.require(toFail: rotation)
+        tap.require(toFail: pinch)
+
+        let slider = UISlider()
+        slider.minimumValue = Float(0.25 * WheelField().playingFieldProper)
+        slider.maximumValue = Float(0.75 * WheelField().playingFieldProper)
+        slider.value = Float(0.5 * WheelField().playingFieldProper)
+        slider.addTarget(self, action: #selector(handle(slider:)), for: .valueChanged)
+
+        view.addSubview(slider)
+        slider.bottomAnchor == view.bottomAnchor - 20
+        slider.centerXAnchor == view.centerXAnchor
+        slider.widthAnchor == 0.75 * view.widthAnchor
     }
 
     @objc func handle(pinch: UIPinchGestureRecognizer) {
@@ -72,23 +87,35 @@ class FieldPlacementViewController: ARSceneViewController {
     @objc func handle(pan: UIPanGestureRecognizer) {
         switch pan.state {
         case .began:
-            initialPosition = childNode?.position
+            lastPosition = pan.location(in: view)
         case .changed:
-            let trans = pan.translation(in: view)
-            childNode?.position = SCNVector3(
-                x: (initialPosition?.x ?? 0) + 0.01 * Float(trans.x),
-                y: (initialPosition?.y ?? 0),
-                z: (initialPosition?.z ?? 0) + 0.01 * Float(trans.y)
-            )
+            let pos = pan.location(in: view)
+            childNode?.localTranslate(by: SCNVector3(
+                x: -0.01 * Float(pos.y - (lastPosition?.y ?? 0)),
+                y: 0,
+                z: 0.01 * Float(pos.x - (lastPosition?.x ?? 0))
+            ))
+            lastPosition = pan.location(in: view)
         case .ended, .cancelled, .failed:
-            initialPosition = nil
+            lastPosition = nil
         default:
             break
         }
     }
 
     @objc func handle(tap: UITapGestureRecognizer) {
-        addChildNodeAtFocus(field)
+        if tap.state == .recognized {
+            addChildNodeAtFocus(field)
+        }
+    }
+
+    @objc func handle(slider: UISlider) {
+        let dist = Measurement<UnitLength>(value: Double(slider.value), unit: WheelField().unit)
+            .converted(to: .meters)
+            .value
+        field.childNodes.forEach { child in
+            child.position = SCNVector3(sign(child.position.x) * Float(dist), 0, child.position.z)
+        }
     }
 
 }
